@@ -34,4 +34,4 @@ with tf.Session() as sess:
             print "After %d training steps, w1 is: " % (i)
             print sess.run(w1), "\n"
     print "Final w1 is: \n", sess.run(w1)
-#在本代码#2中尝试其他反向传播方法，看对收敛速度的影响，把体会写到笔记中
+#在本代码#2中尝试其他反向传播方法，看对收敛速度的影响
